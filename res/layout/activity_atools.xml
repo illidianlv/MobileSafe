@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:background="#8866ff00"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:layout_width="fill_parent"
+        android:layout_height="55dip"
+        android:text="高级工具"
+        />
+    <TextView 
+        android:clickable="true"
+        android:onClick="numberQuery"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="号码归属地查询"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:drawableLeft="@android:drawable/ic_menu_camera"
+        android:gravity="center_vertical"
+        
+        />
+
+    <TextView 
+        android:clickable="true"
+        android:onClick="smsBackup"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="短信备份"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:drawableLeft="@android:drawable/ic_menu_camera"
+        android:gravity="center_vertical"
+        
+        />
+     <TextView 
+        android:clickable="true"
+        android:onClick="smsRestore"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="短信还原"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:drawableLeft="@android:drawable/ic_menu_camera"
+        android:gravity="center_vertical"
+        
+        />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:background="#8866ff00"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:layout_width="fill_parent"
+        android:layout_height="55dip"
+        android:text="功能列表"
+        />
+    <com.lzh.MobileSafe.ui.FocusTextView 
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textSize="18sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="吕志宏，真帅气，真是帅气呀呀呀，真的哟很帅气，全剧终。"
+        />
+    <GridView 
+        android:verticalSpacing="10dip"
+        android:layout_marginTop="15dip"
+        android:numColumns="3"
+        android:id="@+id/list_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>
